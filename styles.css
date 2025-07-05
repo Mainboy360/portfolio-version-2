@@ -45,6 +45,7 @@ html {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
+  text-transform: uppercase;
 }
 
 .lato-black {
@@ -156,7 +157,6 @@ ul li {
 }
 
 /* header navigtion  styling end here onward, hero paragraph and image styling */
-
 
 .hero-container {
     display: flex;
@@ -334,8 +334,9 @@ img[src*="github-svgrepo-com.svg"]:hover,
 img[src*="instagram-social-media-network-communication-interaction-connection-svgrepo-com.svg"]:hover,
 img[src*="linkedin-svgrepo-com.svg"]:hover,
 img[src*="x-social-media-black-icon.svg"]:hover {
-    border: 2px solid #f1f2f6;
-    border-radius: 10px;
+   /* border: 2px solid #f1f2f6;
+    border-radius: 10px;  */
+    transform: scale(0.8);
 }
 
 img[src*="link-svgrepo-com.svg"]:hover{
@@ -353,7 +354,6 @@ img[src*="link-svgrepo-com.svg"]:hover{
 }
 
 .tools-icons {
-    margin-top: 30px;
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -413,16 +413,15 @@ button {
     left: 5px;
     top: 50%;
     transform: translateY(-50%);
-     color: #fff;
-     padding: 1rem 2rem;
-     border-radius: 8px 0 0 8px;
-     box-shadow: -2px 2px 8px rgba(0,0,0,0.15);
-     z-index: 1000;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 8px 0 0 8px;
+    box-shadow: -2px 2px 8px rgba(0,0,0,0.15);
+    z-index: 1000;
 }
 
 .social-icons:hover {
-    border-top: 4px solid #d11149;
-    border-bottom: 4px solid #d11149;
+    border-right: 4px solid #d11149;
 }
 
 
@@ -449,7 +448,7 @@ header .header-navigations .header-link:hover {
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    margin-top: 70px;
+    margin-top: 100px;
     text-align: center;
     background-color: pink;
 }
