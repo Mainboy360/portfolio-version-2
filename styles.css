@@ -434,12 +434,6 @@ button {
     opacity: 0.8;
 }
 
-
-header .header-navigations .header-link:hover {
-    background-color: #f35b04;
-}
-
-
 .copy-right {
     text-align: center;
     padding: 70px;
