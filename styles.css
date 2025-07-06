@@ -576,11 +576,7 @@ button {
   .hero-container {
     padding: 80px 10px;
   }
-
-  .experience {
-    text-align: justify;
-  }
-
+  
   .hero-container h1 {
     font-size: 1.7rem;
   }
@@ -600,14 +596,14 @@ button {
 
   .about-me {
     font-size: 1.3rem;
-    padding: 50px;
+    padding: 20px;
     margin-top: 30px;
-    text-align: justify;
+    text-align: left;
   }
 
   .tools-icons img {
     width: 60px;
-    padding: 10px;
+    padding: 20px;
   }
 
   .resume-section button {
@@ -660,5 +656,108 @@ button {
 
   .tools h3 {
     text-align: center;
+  }
+
+  .experience {
+    padding: 40px;
+  }
+
+  .experience p {
+    text-align: left;
+  }
+}
+
+@media(max-width: 435px) {
+   .hero-container {
+    padding: 80px 10px;
+  }
+  
+  .hero-container h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero-container p {
+    font-size: 1rem;
+  }
+
+  .about p {
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+
+  .about h2 {
+    font-size: 1.2rem;
+  }
+
+  .about-me {
+    font-size: 1.3rem;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .tools-icons img {
+    width: 60px;
+    padding: 30px;
+  }
+
+  .resume-section button {
+    font-size: 0.9rem;
+    padding: 12px 20px;
+  }
+
+  .copy-right {
+    padding: 30px 15px;
+    font-size: 0.9rem;
+    margin-top: 30px;
+  }
+
+  .copy-right p {
+    font-size: 1.2rem;
+  }
+
+  .copy-right img {
+    width: 60px;
+  }
+
+  .lets-go {
+    margin-top: 20px;
+  }
+
+
+  .hello {
+    font-size: 1rem;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-link span {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .social-icons {
+    margin-top: 60px;
+  }
+
+  .tools {
+    padding: 10px;
+    margin-top: -20px;
+    padding-bottom: 70px;
+  }
+
+  .tools h3 {
+    text-align: center;
+  }
+
+  .experience {
+    padding: 40px;
+  }
+
+  .experience p {
+    text-align: left;
   }
 }
